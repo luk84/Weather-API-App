@@ -13,6 +13,6 @@ This is my Weather API website/app project.
 
 ### Commands:
 
-- Install dependencies: `npm install` (on linux I use `npm install node-sass` and then `npm install`)
+- Install dependencies: `npm install` (on linux I have to do `npm install node-sass` and then `sudo npm install`)
 - Development mode with live server: `npm run serve`
 - Production: `npm run build`
