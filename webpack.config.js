@@ -14,7 +14,10 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
     watchContentBase: true,
-    publicPath: '/'
+    publicPath: '/',
+    proxy: {
+      '/api/**': 'http://localhost:3000'
+    }
   },
   plugins: [
     new MiniCssExtractPlugin({
